@@ -9,7 +9,7 @@ namespace LogicalPrograms
             Console.WriteLine("Welcome to logical programs");
 
             //Menu for list of programs
-            Console.WriteLine("Menu\n1.Fibbonacci Series\n2.Perfect Number\n3.Exit");
+            Console.WriteLine("Menu\n1.Fibbonacci Series\n2.Perfect Number\n3.Prime Number\n4.Exit");
 
             Console.WriteLine("Enter the option");
 
@@ -23,6 +23,9 @@ namespace LogicalPrograms
                     PerfectNumber.CheckPerfectNumber();
                     break;
                 case 3:
+                    PrimeNumber.CheckPrimeNumber();
+                    break;
+                case 4:
                     Console.WriteLine("Exited");
                     break;
                 default:
