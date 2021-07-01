@@ -9,7 +9,7 @@ namespace LogicalPrograms
             Console.WriteLine("Welcome to logical programs");
 
             //Menu for list of programs
-            Console.WriteLine("Menu\n1.Fibbonacci Series\n2.Perfect Number\n3.Prime Number\n4.Reverse a Number\n5.Exit");
+            Console.WriteLine("Menu\n1.Fibbonacci Series\n2.Perfect Number\n3.Prime Number\n4.Reverse a Number\n5.Coupon Number\n6.Exit");
 
             Console.WriteLine("Enter the option");
 
@@ -29,6 +29,9 @@ namespace LogicalPrograms
                     ReverseNumber.GetReverseNumber();
                     break;
                 case 5:
+                    CouponNumber.GenerateCoupon();
+                    break;
+                case 6:
                     Console.WriteLine("Exited");
                     break;
                 default:
