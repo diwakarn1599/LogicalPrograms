@@ -14,6 +14,7 @@ namespace LogicalPrograms
             //getting limit from the user
             limit = Convert.ToInt32(Console.ReadLine());
 
+            //for limit less than 2
             if (limit == 1)
             {
                 Console.WriteLine(n1);
@@ -23,6 +24,7 @@ namespace LogicalPrograms
 
                 Console.WriteLine(n1);
                 Console.WriteLine(n2);
+
                 limit -= 2;
                 //loop for generating fibbonacci series
                 while (limit > 0)
